@@ -1,0 +1,21 @@
+
+
+@mixin parrafos {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+@mixin titulo {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

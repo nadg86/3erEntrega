@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Sitio web dedicado a la belleza y el cuidado de la piel. Encuentra consejos y productos de belleza de alta calidad.">
+
+    <title>Promociones</title>
+    <!-- Referencia al archivo CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Referencia a jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <!-- Referencia a Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+
+    <!-- Referencia al archivo JavaScript de Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- BS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+
+<body class="">
+
+    <header>
+
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="imgLogo" src="../img/logo.png" alt="Logo Depi Style">
+                </a>
+
+                <button class="navbar-toggler btn-desplegable" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item btnHeader">
+                            <a class="nav-link active" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item btnHeader">
+                            <a class="nav-link" href="tratamiento.html">Tratamiento</a>
+                        </li>
+                        <li class="nav-item btnHeader">
+                            <a class="nav-link" href="centros.html">Centros</a>
+                        </li>
+                        <li class="nav-item dropdown btnHeader">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" href="preciosypromociones.html">Precios y promociones</a>
+                            <ul class="dropdown-menu desplegable">
+                                <li>
+                                    <a class="dropdown-item" href="promociones.html">Promociones</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Precios por zona</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item btnHeader">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <hr class="hr1">
+                    <ul class="navbar-nav flex-row flex-wrap">
+                        <li class="nav-item col-6 col-md-auto icons">
+                            <i class="bi bi-whatsapp"></i>
+                            <small class="d-md-none ms-2">whatsapp</small>
+                        </li>
+                        <li class="nav-item col-6 col-md-auto icons">
+                            <i class="bi bi-facebook"></i>
+                            <small class="d-md-none ms-2">Facebook</small>
+                        </li>
+                        <li class="nav-item col-6 col-md-auto icons">
+                            <i class="bi bi-instagram"></i>
+                            <small class="d-md-none ms-2">Instagram</small>
+                        </li>
+                        <li class="nav-item col-6 col-md-auto icons">
+                            <i class="bi bi-twitter"></i>
+                            <small class="d-md-none ms-2">Twitter</small>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- Encabezado promociones -->
+
+    <h1 id="titulo-promos">Precios y promociones</h1>
+
+    <div class="container-fluid contenedor-encabezado" id="seccion-encabezado-promos">
+        <div class="row container-promociones" id="encabezado-promociones">
+
+            <div class="col-sm-6 col-md-4 columna-texto-promos">
+                <h2>Packs hombre</h2>
+                <div>
+                    <h3>$2000</h3>
+                    <p>Zona intima</p>
+                </div>
+                <div>
+                    <h3>$3500</h3>
+                    <p>Abdomen, pecho, hombros y nuca</p>
+                </div>
+                <div>
+                    <h3>$4200</h3>
+                    <p>Abodomen, pecho, hombros, nuca, espalda, axilas</p>
+                </div>
+                <div>
+                    <h3>$5500</h3>
+                    <p>Abdomen, pecho, hombros, axilas, brazos, piernas enteras y pies</p>
+                </div>
+                <div>
+                    <h3>$7000</h3>
+                    <p>Cuerpo entero *No incluye pubis, genitales ni perianal</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 d-none d-md-block contenedor-imagen" id="img-encabezado-promos" aria-col
+                span="imagen-tamaño">
+                <img src="../img/img centro promociones.png" alt="imagen de mujer">
+            </div>
+
+            <div class="col-sm-6 col-md-4 columna-texto-promos">
+                <h2>Packs mujer</h2>
+                <div>
+                    <h3>$2000</h3>
+                    <p>Axilas, ingles y pubis</p>
+                </div>
+                <div>
+                    <h3>$3500</h3>
+                    <p>Zona íntima y axilas</p>
+                </div>
+                <div>
+                    <h3>$4200</h3>
+                    <p>Ingles, pubis, perianal, axilas, cara, medias piernas y pies</p>
+                </div>
+                <div>
+                    <h3>$5500</h3>
+                    <p>Ingles, pubis, perianal, axilas, cara, piernas enteras y pies</p>
+                </div>
+                <div>
+                    <h3>$7000</h3>
+                    <p>Cuerpo entero</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Acordion promociones -->
+
+
+    <div class="accordion w-50 mb-5 mx-auto accordion-flush" id="accordionFlushExample">
+        <h2 class="zonas-sueltas">Zonas sueltas</h2>
+        <div class="accordion-item-promos1">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Zonas sueltas mujer
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aliquid rerum
+                    non, aliquam deserunt odit debitis facere, asperiores dolores blanditiis illo, fuga quisquam. Qui
+                    earum voluptatum ex quae aspernatur voluptates dolorum repellendus laudantium minima voluptatem
+                    eaque, sed excepturi officiis quod labore doloribus? Commodi numquam, ea accusamus corporis quia
+                    itaque sit.</div>
+            </div>
+        </div>
+        <div class="accordion-item-promos2">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Zonas sueltas hombre
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aliquid rerum
+                    non, aliquam deserunt odit debitis facere, asperiores dolores blanditiis illo, fuga quisquam. Qui
+                    earum voluptatum ex quae aspernatur voluptates dolorum repellendus laudantium minima voluptatem
+                    eaque, sed excepturi officiis quod labore doloribus? Commodi numquam, ea accusamus corporis quia
+                    itaque sit.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenedor-btn-promos">
+        <button class="btn-promociones mx-auto" type="submit">Reserva tu turno</button>
+    </div>
+
+    <!-- TARJETAS DE PROMOCIONES -->
+
+    <section>
+        <h2 id="h2-giftcards">Conoce nuestras gift cards</h2>
+        <div class="row mx-auto container-promociones" id="encabezado-promociones">
+            <div class="tarjeta" style="width: 18rem;">
+                <img src="../img/relax 1.jpg" class="card-img-top" alt="tratamiento facial">
+                <div class="card-body">
+                    <h5 class="card-title">Tratamiento facial</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, facilis esse.
+                        Asperiores autem impedit deleniti.</p>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+            </div>
+
+            <div class="tarjeta" style="width: 18rem;">
+                <img src="../img/camilla relax 1.jpg" class="card-img-top" alt="camilla de masajes">
+                <div class="card-body">
+                    <h5 class="card-title">Masajes relajantes</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, facilis esse.
+                        Asperiores autem impedit deleniti.</p>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+            </div>
+
+            <div class="tarjeta" style="width: 18rem;">
+                <img src="../img/limpieza cara 1.jpg" class="card-img-top" alt="limpieza facial">
+                <div class="card-body">
+                    <h5 class="card-title">Limpieza</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, facilis esse.
+                        Asperiores autem impedit deleniti.</p>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+            </div>
+            <div class="tarjeta" style="width: 18rem;">
+                <img src="../img/big_crop_depilacion-zona-intima.jpg" class="card-img-top" alt="limpieza facial">
+                <div class="card-body">
+                    <h5 class="card-title">Depilacion por zona</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, facilis esse.
+                        Asperiores autem impedit deleniti.</p>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Pie -->
+    <section class="container-fluid p-0" id="seccion-pie">
+        <div class="pie-de-pagina">
+
+            <div class="columna-pie">
+                <h3>Central de atencion al cliente</h3>
+                <p>1137414487</p>
+                <h3>Horrios</h3>
+                <p>De lunes a Viernes de 9 a 20hs</p>
+                <p>Sabados de 9 a 16hs</p>
+                <h3>Oficinas </h3>
+                <p>Recoleta</p>
+                <p>Lomas de zamora</p>
+            </div>
+            <div class="columna-pie">
+                <h3>Menu</h3>
+                <p>Home</p>
+                <p>Gift cards</p>
+                <p>Referidos</p>
+                <p>Sobre nosotros</p>
+            </div>
+            <div class="columna-pie">
+                <h3>Legal</h3>
+                <p>Terminos y condiciones</p>
+                <p>Privacidad de datos</p>
+                <p>Arrepentimiento de compra</p>
+                <p>Preguntas frecuentes</p>
+                <p>Politica de cambios y devoluciones</p>
+                <p>Promociones vigentes</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+        <p class="fs-6 px-3 pt-3">Depi Style - Todos los derechos reservados 2023</p>
+        <div id="icons">
+            <a href=""><i class="bi bi-whatsapp"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-twitter"></i></a>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
